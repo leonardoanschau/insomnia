@@ -1,0 +1,23 @@
+_id: req_ad411b4794e64299988f10595aa12ec7
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1664389839710
+created: 1664309570012
+url: "{{ _.local }}/omni-dashboard-bff/v1/coverage/RESTRICAO_MIX"
+name: coverage-types-type
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663955236725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

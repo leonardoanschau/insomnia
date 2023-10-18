@@ -1,0 +1,21 @@
+_id: req_42895fa2cd7845f8bc224324ab2df06d
+type: Request
+parentId: fld_27223b2bdb8e4c078dc6c225c92fed93
+modified: 1677070371048
+created: 1677070351022
+url: "{{ _.local }}/v1/kafka"
+name: hello
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676822635213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

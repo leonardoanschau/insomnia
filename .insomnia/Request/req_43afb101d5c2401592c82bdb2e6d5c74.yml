@@ -1,0 +1,31 @@
+_id: req_43afb101d5c2401592c82bdb2e6d5c74
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1660227613575
+created: 1659734286878
+url: "{{ _.local }}/omni-dashboard-bff/v1/coupon/logs/94875/sequence/1"
+name: find-coupon-log
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: aIyVA7sPnolr
+    description: ""
+  - id: pair_3a2541b0c5da4f1b92feed9ad9de11c5
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651173394869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

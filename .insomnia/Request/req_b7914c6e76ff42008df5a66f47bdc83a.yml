@@ -1,0 +1,72 @@
+_id: req_b7914c6e76ff42008df5a66f47bdc83a
+type: Request
+parentId: fld_171f0e1142f247b7bd7176e68ec466ed
+modified: 1684180889034
+created: 1679340565554
+url: "{{ _.staging }}/recommendation/v1/recommendation/behaviors/generate"
+name: generate-sql
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+        \"id\": 512,\r
+
+        \"startDate\": \"2022-03-30\",\r
+
+        \"endDate\": \"\",\r
+
+        \"description\": \"ativo barba 180d\",\r
+
+        \"groups\": [\r
+
+            {\r
+
+                \"id\": 1,\r
+
+                \"daysOfAnalysis\": 180,\r
+
+                \"amount\": 1,\r
+
+                \"ordersAmount\": 0,\r
+
+                \"averageTicket\": 0,\r
+
+                \"value\": 0,\r
+
+                \"values\": [\r
+
+                    {\r
+
+                        \"type\": \"CATEGORY\",\r
+
+                        \"relationalOperator\": \"IN\",\r
+
+                        \"values\": \"POS BARBA,LAMINA,GEL OU ESPUMA DE
+    BARBEAR,CREME DE BARBEAR,APARELHO BARBEAR,BARBA\"\r
+
+                    }\r
+
+                ]\r
+
+            }\r
+
+        ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: app-token
+    value: mCl6SnTQp6eT
+authentication: {}
+metaSortKey: -1679340565554
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

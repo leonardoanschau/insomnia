@@ -1,0 +1,14 @@
+_id: env_8a47926ce2dd4dd09b182dcf032cf3d7
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1673517544180
+created: 1653682227798
+name: pedido-service
+data:
+  staging: http://tst.grupodimedservices.com.br/order
+dataPropertyOrder:
+  "&":
+    - staging
+color: null
+isPrivate: false
+metaSortKey: 1653682227798

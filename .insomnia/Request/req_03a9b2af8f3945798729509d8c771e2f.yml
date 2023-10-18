@@ -1,0 +1,21 @@
+_id: req_03a9b2af8f3945798729509d8c771e2f
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1651174151818
+created: 1651172129795
+url: "{{ _.local }}/coupon/v1/coupon/search/options"
+name: search-options
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651172119613
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

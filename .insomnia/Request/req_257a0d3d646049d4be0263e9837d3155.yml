@@ -1,0 +1,21 @@
+_id: req_257a0d3d646049d4be0263e9837d3155
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1662745106896
+created: 1659642786696
+url: "{{ _.staging }}/coupon/v1/coupon/94528/item/assigned"
+name: assigned
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651172119600.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

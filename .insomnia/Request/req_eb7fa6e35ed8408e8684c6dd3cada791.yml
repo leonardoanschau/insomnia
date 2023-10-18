@@ -1,0 +1,34 @@
+_id: req_eb7fa6e35ed8408e8684c6dd3cada791
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1668458489546
+created: 1664975895250
+url: "{{ _.local }}/coupon/v1/coupon/search"
+name: coupon/search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "searchParameters": [
+            {
+                "filter": "WEEK_DAYS",
+                "relationalOperator": "IN",
+                "value": "1,2"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664766768995
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

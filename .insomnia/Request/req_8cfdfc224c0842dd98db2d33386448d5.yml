@@ -1,0 +1,32 @@
+_id: req_8cfdfc224c0842dd98db2d33386448d5
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1695146762343
+created: 1695144595118
+url: "{{ _.local }}/coupon/v1/coupon/wallet/reserve/8977"
+name: exchange-voucher-reservate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "customerCpf": 2807802060,
+      "orderId": 1719,
+      "value": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: app-token
+    value: mCl6SnTQp6eT
+authentication: {}
+metaSortKey: -1667229156176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

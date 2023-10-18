@@ -1,0 +1,24 @@
+_id: req_69fc40df123a4e1283fa2764b9a4291c
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1684761759890
+created: 1684761750972
+url: "{{ _.local }}/omni-dashboard-bff/v1/coupon/section/all"
+name: section-all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1651173394881.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,83 @@
+_id: req_0cf0f650c66a4942adb87714f7bad102
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1662667495564
+created: 1662667248460
+url: "{{ _.local }}/coupon/v1/coupon"
+name: cupom-puc-boxes-amount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "couponData": {
+      	"idCampaign": 1,
+        "idSection": 1,
+        "idImage": 1,
+        "alterationUser": "BONUS 2",
+        "automaticUse": true,
+        "bonusValue": 20,
+        "creationUser": "lanschau",
+        "cuponable": true,
+        "description": "BONUS",
+        "detailedDescription": "BONUS",
+        "discountType": "BONUS_VALUE",
+        "durationDays": 15,
+        "dynamicPromocode": true,
+        "isBehaviorOptional": true,
+        "limitTradeValue": 1000,
+        "percentageReplacement": null,
+        "promocode": null,
+        "pub": false,
+        "rebateValue": 20,
+        "recommendationByRefinery": true,
+        "startDate": "08/09/2022 00:00:00",
+        "endDate": "20/01/2023 00:00:00",
+        "title": "BONUS"
+      },
+      "couponProducts": [],
+      "couponCustomers": [
+    		{
+          "columnName": "QUANTIDADE_CAIXAS_PUC",
+          "columnType": "STRING",
+          "columnValue": "1",
+          "relationalOperator": "EQUAL"
+        }
+    	],
+      "couponBehaviors": [],
+      "couponConditions": [
+        {
+          "filterList": [
+            {
+              "columnName": "BRAND",
+              "columnValue": "PANVEL",
+              "relationalOperator": "IN"
+            }
+          ],
+          "textExhibition": "string"
+        }
+      ],
+      "couponCoverages": [
+        {
+          "columnName": "CANAL",
+          "columnType": "STRING",
+          "columnValue": "LOJA;APP;SITE;ALO",
+          "relationalOperator": "IN"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1655416845301
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

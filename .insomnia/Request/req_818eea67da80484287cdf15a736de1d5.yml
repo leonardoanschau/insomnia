@@ -1,0 +1,39 @@
+_id: req_818eea67da80484287cdf15a736de1d5
+type: Request
+parentId: fld_5c7f14d1eeff455da032ee94c977c267
+modified: 1684257500633
+created: 1684257424227
+url: "{{ _.staging }}/catalog/v1/skus/detail"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "subsidiary": 701,
+        "channel": 2,
+        "categoryVersion": 3,
+        "covenants": [
+            416061
+        ],
+        "coupons": [],
+        "skus": [
+            {
+                "id": 5657
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684257424227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

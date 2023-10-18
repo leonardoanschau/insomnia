@@ -1,0 +1,21 @@
+_id: req_659511744c4543a78873e0d1cbeb402c
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1660070779597
+created: 1659963385168
+url: "{{ _.local }}/coupon/v1/coupon/logs/94878/sequence/1"
+name: log-by-coupon-id-and-sequence
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1659963385168
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

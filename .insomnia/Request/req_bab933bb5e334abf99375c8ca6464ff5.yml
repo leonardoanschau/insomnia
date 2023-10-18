@@ -1,0 +1,32 @@
+_id: req_bab933bb5e334abf99375c8ca6464ff5
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1684174629752
+created: 1651173458708
+url: "{{ _.local }}/omni-dashboard-bff/v1/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "rgarcia",
+    	"password": "teste123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e27784f0a50d4cf9bd784ec0d1af6939
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1651173394794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

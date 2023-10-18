@@ -1,0 +1,25 @@
+_id: req_2e1be528878e4d8181f02fbbad32ff53
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1692034760021
+created: 1692034627342
+url: "{{ _.local }}/coupon/v1/coupon/exchange-voucher/wallet/leleco/8977"
+name: tesstee
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: mCl6SnTQp6eT
+    description: ""
+authentication: {}
+metaSortKey: -1665587564722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

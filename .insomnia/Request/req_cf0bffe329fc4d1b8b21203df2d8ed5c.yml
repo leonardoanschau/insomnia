@@ -1,0 +1,25 @@
+_id: req_cf0bffe329fc4d1b8b21203df2d8ed5c
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1668690300069
+created: 1655473365854
+url: "{{ _.staging }}/coupon/v1/coupon/data/10"
+name: find-coupon-data
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: aIyVA7sPnolr
+    description: ""
+authentication: {}
+metaSortKey: -1651172119550.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

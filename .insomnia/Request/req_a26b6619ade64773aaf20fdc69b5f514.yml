@@ -1,0 +1,29 @@
+_id: req_a26b6619ade64773aaf20fdc69b5f514
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1660327181333
+created: 1658952921147
+url: "{{ _.staging
+  }}/omni-dashboard-bff/v1/coupon/logs/coupon/95029?page=0&size=5&textFilter=20\
+  22-08-11"
+name: paginated-logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: aIyVA7sPnolr
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651172757141
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

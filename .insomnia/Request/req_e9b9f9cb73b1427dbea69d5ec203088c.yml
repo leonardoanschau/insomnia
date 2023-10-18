@@ -1,0 +1,25 @@
+_id: req_e9b9f9cb73b1427dbea69d5ec203088c
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1688490363620
+created: 1687553828839
+url: "{{ _.staging
+  }}/omni-dashboard-bff/v1/custom-message/campaigns?pageNumber=0&pageSize=10&so\
+  rt=idCampaign&direction=DESC"
+name: custom-message/campaign/paginat
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663976724845.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

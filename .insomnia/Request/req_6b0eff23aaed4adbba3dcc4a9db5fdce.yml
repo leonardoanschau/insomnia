@@ -1,0 +1,31 @@
+_id: req_6b0eff23aaed4adbba3dcc4a9db5fdce
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1659966671950
+created: 1654798063326
+url: "{{ _.local }}/omni-dashboard-bff/v1/coupon/89739/item/search?page=1&size=10"
+name: coupon-item-paged
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "textFilter": "CREME DENTAL"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2db7891e3e4c43fc9fcb1a614f21af86
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651173394844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

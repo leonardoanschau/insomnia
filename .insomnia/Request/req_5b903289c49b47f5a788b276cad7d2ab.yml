@@ -1,0 +1,52 @@
+_id: req_5b903289c49b47f5a788b276cad7d2ab
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1671729549057
+created: 1671729508172
+url: "{{ _.local }}/coupon/v1/coupon/27"
+name: cupom
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"idImage": 1,
+    	"description": "BONUS",
+    	"detailedDescription": "BONUS",
+    	"idCampaign": 1,
+    	"idSection": 1,
+    	"pub": false,
+    	"active": false,
+    	"cuponable": true,
+    	"startDate": "22/12/2022 00:00:00",
+    	"endDate": "20/01/2023 00:00:00",
+    	"durationDays": 15,
+    	"dynamicPromocode": true,
+    	"discountType": 3,
+    	"bonusValue": 20.00,
+    	"rebateValue": 20.00,
+    	"creationDate": "22/12/2022 10:51:15",
+    	"alterationDate": "22/12/2022 10:51:15",
+    	"title": "BONUS",
+    	"isBehaviorOptional": true,
+    	"recommendationByRefinery": true,
+    	"creationUser": "lanschau",
+    	"alterationUser": "BONUS 2",
+    	"limitTradeValue": 1000.00,
+    	"automaticUse": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1655458812774.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

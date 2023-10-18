@@ -1,0 +1,47 @@
+_id: req_e4513bc9679241a08c8d74c407229aa8
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1658953034245
+created: 1656022074746
+url: "{{ _.local }}/omni-dashboard-bff/v1/coverage/impacted-subsidiaries"
+name: impacted-subsidiaries
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "filterTextSubsidiary": "",
+        "pageNumber": 1,
+        "pageSize": 10,
+        "listColumnFilterImpactedSubsidiaryRequest": [
+            {
+                "columnName": "UF",
+                "relationalOperator": "EQUAL",
+                "columnValue": "RS"
+            },
+            {
+                "columnName": "CANAL_ATIVACAO",
+                "relationalOperator": "EQUAL",
+                "columnValue": "APP"
+            }
+        ],
+        "couponId": 88495
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e17378bf52a4440d9f3c324947f79f38
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1651173394778.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

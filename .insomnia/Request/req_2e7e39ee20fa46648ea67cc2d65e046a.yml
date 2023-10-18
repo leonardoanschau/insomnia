@@ -1,0 +1,23 @@
+_id: req_2e7e39ee20fa46648ea67cc2d65e046a
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1686761929435
+created: 1664299046646
+url: "{{ _.staging }}/omni-dashboard-bff/v1/coverage"
+name: coverage-types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1664299046646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,76 @@
+_id: req_c3ffaa83b47447b3a01501e3e0e7af34
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1677851131311
+created: 1677848596677
+url: "{{ _.local }}/coupon/v2/coupon"
+name: cupom-v2-tst
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "couponData": {
+      	"idCampaign": 106,
+        "idSection": 21,
+        "idImage": null,
+        "alterationUser": "lanschau",
+        "automaticUse": true,
+        "bonusValue": 20,
+        "creationUser": "lanschau",
+        "cuponable": true,
+        "description": "AQUI",
+        "detailedDescription": "AQUI",
+        "discountType": "BONUS_VALUE",
+        "durationDays": 15,
+        "dynamicPromocode": true,
+        "isBehaviorOptional": true,
+        "limitTradeValue": 1000,
+        "percentageReplacement": null,
+        "promocode": "AQUI_TESTE_PROMOCODE",
+        "pub": false,
+        "rebateValue": 20,
+        "recommendationByRefinery": false,
+        "startDate": "03/03/2023 00:00:00",
+        "endDate": "20/01/2024 00:00:00",
+        "title": "TEST AQUI #NOME#"
+      },
+      "couponProducts": [],
+      "couponCustomerGroups": [
+    		 {
+    			 "couponCustomers": [
+    				  {
+    						"columnName": "SEXO",
+    						"columnType": "STRING",
+    						"columnValue": "M",
+    						"relationalOperator": "EQUAL"
+        			}
+    			 ]
+    		 }
+    	],
+      "couponBehaviors": [],
+      "couponConditions": [],
+      "couponCoverages": [
+        {
+          "columnName": "CANAL",
+          "columnType": "STRING",
+          "columnValue": "LOJA;APP;SITE;ALO",
+          "relationalOperator": "IN"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1655304932039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

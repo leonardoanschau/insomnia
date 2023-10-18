@@ -1,0 +1,21 @@
+_id: req_90892431b0da4efdaa154d36c9be512f
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1676403661462
+created: 1660935105330
+url: "{{ _.staging }}/coupon/v1/campaign/3"
+name: campaign
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660327780228.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

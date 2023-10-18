@@ -1,0 +1,40 @@
+_id: req_34f8b19d632444198c8243dba92ae68e
+type: Request
+parentId: fld_27223b2bdb8e4c078dc6c225c92fed93
+modified: 1677121309990
+created: 1677069597888
+url: "{{ _.local }}/v1/kafka/RESPONSYS_PET_REPURCHASE"
+name: send
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "topic":"RESPONSYS_PET_REPURCHASE",
+       "headers":{
+          "headers":[
+             
+          ],
+          "isReadOnly":false
+       },
+       "key":"42960272811353611-11012710-de44-4987-b3ff-d8318db8a2c1",
+       "value":{
+          "tipo":"REPURCHASE",
+          "customerId":"94036667068",
+          "idProduct":"102921"
+       }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677069597888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

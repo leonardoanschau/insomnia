@@ -1,0 +1,23 @@
+_id: req_bf6af4d7b647418db80171a719acb6d1
+type: Request
+parentId: fld_b0484a68ade642439e76f8f34f59a52d
+modified: 1663763666586
+created: 1663611426804
+url: "{{ _.local
+  }}/convenio/v2/convenios?convenio=IPE&filial=101&perfil=2&autorizacaoExterna=\
+  false"
+name: consultar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663611426804
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

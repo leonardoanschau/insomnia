@@ -1,0 +1,15 @@
+_id: env_d2af8a200a7b45988142962459192d9d
+type: Environment
+parentId: wrk_fa4d42cf92b24692bcfa7f6d95da37de
+modified: 1684761502255
+created: 1651068384903
+name: Base Environment
+data:
+  token: Bearer
+    eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiIzNzAwIiwiZXhwIjoxNjkyNTI2NDgyfQ.VNDQq2xLDsAVIQiexrYYHcH1mpvqJ3i9eYla1FC6HbKNsFnod_WWE8m-aFiGqwwIJ7SMoPAtucCSp2hnT4CIVQ
+dataPropertyOrder:
+  "&":
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1651068384903

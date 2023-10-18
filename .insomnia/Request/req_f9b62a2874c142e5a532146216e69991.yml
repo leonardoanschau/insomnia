@@ -1,0 +1,23 @@
+_id: req_f9b62a2874c142e5a532146216e69991
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1654030699191
+created: 1654030659053
+url: "{{ _.local
+  }}/grupopanvel/v1/admin/file/download?path=realEstateOffer/6259a473ae60c53375\
+  afee35/vendaservicoV5.drawio.png"
+name: file
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651224400972.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_7ed04adba790474abe6d16bfe5f0f50e
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1695131496074
+created: 1651068421686
+url: "{{ _.production
+  }}/coupon/v1/coupon/wallet/recommendation/48771642005?channel=SITE"
+name: recommendation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: mCl6SnTQp6eT
+    description: ""
+authentication: {}
+metaSortKey: -1666408360449
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

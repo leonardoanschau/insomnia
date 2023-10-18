@@ -1,0 +1,21 @@
+_id: req_48848bbf5f2049f496e7606758699aaa
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1677868461793
+created: 1655473217909
+url: "{{ _.staging }}/coupon/v1/coupon/101336/activate"
+name: active
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655473217909
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,18 @@
+_id: env_0df81782e8074c6e88b7833432c59968
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1673517544178
+created: 1651582681722
+name: grupopanvel-service
+data:
+  local: http://localhost:8080
+  staging: http://api-int.grupodimedservices.com.br/tst
+  app-token: KSjp7CSXi507
+dataPropertyOrder:
+  "&":
+    - local
+    - staging
+    - app-token
+color: null
+isPrivate: false
+metaSortKey: 1651582681722

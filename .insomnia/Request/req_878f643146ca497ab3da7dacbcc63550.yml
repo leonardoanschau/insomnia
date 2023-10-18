@@ -1,0 +1,24 @@
+_id: req_878f643146ca497ab3da7dacbcc63550
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1688004600927
+created: 1688004596583
+url: "{{ _.production
+  }}/omni-dashboard-bff/v1/custom-message/campaigns/behavior-rules"
+name: custom-message/campaign/rules
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663987468905.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

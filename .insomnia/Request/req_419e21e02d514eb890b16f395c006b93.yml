@@ -1,0 +1,25 @@
+_id: req_419e21e02d514eb890b16f395c006b93
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1668690312040
+created: 1658775370036
+url: "{{ _.staging }}/coupon/v1/coupon/logs/coupon/95031"
+name: paginated-logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: aIyVA7sPnolr
+    description: ""
+authentication: {}
+metaSortKey: -1651172119544.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

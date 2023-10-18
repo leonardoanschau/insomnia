@@ -1,0 +1,51 @@
+_id: req_2bc0b3e7708f461ba55fb0670e850b36
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1679345944298
+created: 1679345883783
+url: "{{ _.local }}/omni-dashboard-bff/v1/behaviors/512"
+name: behaviors
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {   
+    	  "description": "ativo barba 180d",
+        "startDate": "2022-03-30",
+        "endDate": "",
+        "groups": [
+            {
+    					  "id": 1,
+                "insertionSort": 1,
+                "daysOfAnalysis": 180,
+                "amount": 1,
+                "ordersAmount": 0,
+                "averageTicket": 0,
+                "value": 0,
+                "values": [
+                    {
+                        "insertionSort": 1,
+                        "attributeId": 2,
+                        "operation": 3,
+                        "value": "POS BARBA,LAMINA,GEL OU ESPUMA DE BARBEAR,CREME DE BARBEAR,APARELHO BARBEAR,BARBA"                }
+                ]
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae3f3cc428f04e45abafd4f664bbfe90
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1660592009857.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,18 @@
+_id: env_1ee87ec399724798af3d42c003ba6c93
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1683604087107
+created: 1683604004650
+name: recommendation-service
+data:
+  local: http://localhost:8080
+  staging: http://api-int.grupodimedservices.com.br/tst
+  production: https://api-int.grupodimedservices.com.br/prod
+dataPropertyOrder:
+  "&":
+    - local
+    - staging
+    - production
+color: null
+isPrivate: false
+metaSortKey: 1683604004651

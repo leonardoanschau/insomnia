@@ -1,0 +1,28 @@
+_id: req_11168da0e3d7474485391ac8397b4df7
+type: Request
+parentId: fld_bf64c5af80134fe2a5259af15464eb90
+modified: 1686690952809
+created: 1686690942996
+url: http://kafka-registry-dev.saas.dimed.com.br/compatibility/subjects/{subject}/versions/{version}
+name: compatibility
+description: ""
+method: POST
+body:
+  mimeType: application/vnd.schemaregistry.v1+json
+  text: >-
+    {
+       "schema":"{\"type\":\"record\",\"name\":\"NotificationInput\",\"namespace\":\"br.com.dimed.custommessageservice.impl.v1.message.avroschema\",\"fields\":[{\"name\":\"messageType\",\"type\":\"string\"},{\"name\":\"store\",\"type\":{\"type\":\"record\",\"name\":\"NotificationStoreInput\",\"namespace\":\"br.com.dimed.custommessageservice.impl.v1.notification.models.input\",\"fields\":[{\"name\":\"channel\",\"type\":\"string\"},{\"name\":\"subsidiary\",\"type\":\"long\"},{\"name\":\"storeStation\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"userId\",\"type\":[\"null\",\"long\"],\"default\":null}]}},{\"name\":\"content\",\"type\":{\"type\":\"record\",\"name\":\"NotificationContentInput\",\"namespace\":\"br.com.dimed.custommessageservice.impl.v1.notification.models.input\",\"fields\":[{\"name\":\"customerCpf\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"searchMessage\",\"type\":[\"null\",\"string\"],\"default\":null}]}},{\"name\":\"pagination\",\"type\":{\"type\":\"record\",\"name\":\"PaginationInput\",\"namespace\":\"br.com.dimed.custommessageservice.impl.v1.pagination.input\",\"fields\":[{\"name\":\"pageNumber\",\"type\":\"int\"},{\"name\":\"pageSize\",\"type\":\"int\"}]}}]}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/vnd.schemaregistry.v1+json
+authentication: {}
+metaSortKey: -1677787081744
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

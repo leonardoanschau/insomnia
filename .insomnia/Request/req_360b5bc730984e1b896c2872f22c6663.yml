@@ -1,0 +1,22 @@
+_id: req_360b5bc730984e1b896c2872f22c6663
+type: Request
+parentId: fld_171f0e1142f247b7bd7176e68ec466ed
+modified: 1689792355285
+created: 1683317978060
+url: "{{ _.staging
+  }}/recommendation/v1/behaviors/customer/10340021985?getItems=true"
+name: behaviors-customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1679340565504
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

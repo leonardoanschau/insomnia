@@ -1,0 +1,33 @@
+_id: req_5873a2fb73494389aa90b08ef99d1d91
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1688561827033
+created: 1663867987701
+url: "{{ _.local }}/coupon/v1/coupon/section/3"
+name: section
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Seção 2 alterada",
+    	"quantity": 15,
+    	"quantityRecommendationRefinery": 10,
+    	"ordering": 2,
+    	"printOnStore": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7e2fbf71c2f14200b7cbea666aa2588f
+authentication: {}
+metaSortKey: -1662396962163.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

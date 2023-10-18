@@ -1,0 +1,37 @@
+_id: req_554899c7202047bf974b2e77a2ca2c5c
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1671651405863
+created: 1671648395996
+url: "{{ _.local }}/coupon/v1/subsidiary/impacted-subsidiaries"
+name: filiais
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "filterTextSubsidiary": null,
+      "pageNumber": 1,
+      "pageSize": 10,
+      "listColumnFilterImpactedSubsidiaryRequest": [],
+      "couponId": 0
+    }
+parameters: []
+headers:
+  - id: pair_1f7f61e1ff114250bbbf2c2dbb8fd492
+    name: app-token
+    value: aIyVA7sPnolr
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_49e67c5b784e4cc086c7f07a5cb2babe
+authentication: {}
+metaSortKey: -1651172119388
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

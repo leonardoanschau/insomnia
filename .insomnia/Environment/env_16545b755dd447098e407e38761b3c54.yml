@@ -1,0 +1,18 @@
+_id: env_16545b755dd447098e407e38761b3c54
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1688004582335
+created: 1651173904775
+name: omnidashboard-bff
+data:
+  local: http://localhost:9000
+  staging: http://omni-dashboard-bff.kb8s.hml.dimed.com.br
+  production: https://api-int.grupodimedservices.com.br/prod
+dataPropertyOrder:
+  "&":
+    - local
+    - staging
+    - production
+color: null
+isPrivate: false
+metaSortKey: 1651173904775

@@ -1,0 +1,21 @@
+_id: req_816c1532ebb04856abc5f325f636ba2a
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1651604688191
+created: 1651597321920
+url: "{{ _.local }}/grupopanvel/v1/contacts/?page=1&size=5&sort=id"
+name: contacts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651597321920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_c8368baf60c14fe98dac5f358477adee
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1651581792964
+created: 1651581788482
+url: "{{ _.local }}/grupopanvel/v1/contacts/62201ddbb9b17c4ba02f28da"
+name: contacts
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651581788482
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

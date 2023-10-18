@@ -1,0 +1,21 @@
+_id: req_b892bf05fd7745a6bc4f80f611824dd3
+type: Request
+parentId: fld_07d3cd0154ea447ea63d6a0daabb2585
+modified: 1677069582465
+created: 1676575672538
+url: "{{ _.staging }}/clientevarejo/v1/clientes/dbr/pessoa/03103799039"
+name: pessoa
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676575672538
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

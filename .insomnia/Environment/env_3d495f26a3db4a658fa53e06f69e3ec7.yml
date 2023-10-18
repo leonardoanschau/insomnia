@@ -1,0 +1,18 @@
+_id: env_3d495f26a3db4a658fa53e06f69e3ec7
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1687797671451
+created: 1687797657431
+name: custom-message-service
+data:
+  local: http://localhost:8080
+  staging: http://tst.grupodimedservices.com.br
+  production: https://api-int.grupodimedservices.com.br/prod
+dataPropertyOrder:
+  "&":
+    - local
+    - staging
+    - production
+color: null
+isPrivate: false
+metaSortKey: 1687797657431

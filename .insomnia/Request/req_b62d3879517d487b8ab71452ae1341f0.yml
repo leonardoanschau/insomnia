@@ -1,0 +1,35 @@
+_id: req_b62d3879517d487b8ab71452ae1341f0
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1665775878370
+created: 1662396962151
+url: http://api-int.grupodimedservices.com.br/tst/coupon/v1/coupon/wallet/recommendation/17416930049?channel=LOJA
+name: teste-recommendation
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: channel
+    value: SITE
+    disabled: false
+    id: pair_2b80934da305478384696bdeba471bc5
+headers:
+  - name: app-token
+    value: mCl6SnTQp6eT
+    id: pair_019d3deecbe54e90b7f88e47d05b14d4
+  - name: Content-Type
+    value: application/json
+    id: pair_a9e3f2c20fb94cd39a16295f22d98d76
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662396962151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

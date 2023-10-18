@@ -1,0 +1,35 @@
+_id: req_b88274a2def74989a3abe68324b7532b
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1667219448651
+created: 1664975696425
+url: "{{ _.local }}/omni-dashboard-bff/v1/coupon/search?page=0&size=10&sort=id,DESC"
+name: coupon/search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "searchParameters": [
+        {
+          "filter": "CONDITION_BRAND",
+          "relationalOperator": "EQUAL",
+          "value": "PANVEL"
+        }
+      ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651172757166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

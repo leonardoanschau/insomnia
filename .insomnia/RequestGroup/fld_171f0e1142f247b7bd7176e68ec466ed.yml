@@ -1,0 +1,10 @@
+_id: fld_171f0e1142f247b7bd7176e68ec466ed
+type: RequestGroup
+parentId: wrk_fa4d42cf92b24692bcfa7f6d95da37de
+modified: 1679340561284
+created: 1679340561284
+name: recommendation-service
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1679340561284

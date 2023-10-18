@@ -1,0 +1,24 @@
+_id: req_79c4ff0e09694e71b3f4dec1cb1629f8
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1684761670104
+created: 1655317328214
+url: "{{ _.local }}/omni-dashboard-bff/v1/coupon/1"
+name: find-coupon
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1651173394894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

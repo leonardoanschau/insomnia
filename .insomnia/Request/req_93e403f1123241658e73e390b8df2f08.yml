@@ -1,0 +1,23 @@
+_id: req_93e403f1123241658e73e390b8df2f08
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1664309555865
+created: 1662489745270
+url: "{{ _.staging }}/omni-dashboard-bff/v1/coupon/type/BONUS_VALUE/condition/types"
+name: condition-types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1662489745270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

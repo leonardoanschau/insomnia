@@ -1,0 +1,40 @@
+_id: req_c6cb3b94c4444aad9534be6097eec5ed
+type: Request
+parentId: fld_4e20f0264d124c76916629c443bc2910
+modified: 1693342242214
+created: 1677614586178
+url: "{{ _.local }}/custom-message/v1/notifications"
+name: notifications
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "messageType": "CUSTOMER_BELL",
+        "store": {
+            "channel": "LOJA",
+            "subsidiary": 101,
+    			  "storeStation": "lelekio"
+        },
+        "content": {
+            "customerCpf": "3053483025"
+        },
+        "pagination": {
+            "pageNumber": 1,
+            "pageSize": 10
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677614586178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

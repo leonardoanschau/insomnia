@@ -1,0 +1,89 @@
+_id: req_180926d1994d42a3a7a0f7d49fbf4123
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1656994642742
+created: 1656096092725
+url: "{{ _.local }}/coupon/v1/coupon/15"
+name: cupom-update-percentage
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "couponData": {
+            "active": true,
+            "bonusValue": null,
+            "cuponable": true,
+            "description": "Testando count",
+            "detailedDescription": "Testando count",
+            "discountPercentage": 1,
+        		"discountType": "PERCENTAGE_DISCOUNT",
+            "durationDays": null,
+            "dynamicPromocode": true,
+            "endDate": "30/06/2023 23:59:00",
+            "idCampaign": 1,
+            "idSection": 1,
+            "individualUses": "",
+            "limitUses": "",
+            "price": null,
+            "promocode": "",
+            "pub": true,
+            "rebateValue": null,
+            "rebatePercentage": null,
+            "bonusPercentage": null,
+            "mainItemId": null,
+            "title": "Testando count",
+            "startDate": "04/07/2022 00:01:00",
+            "maxDiscountValue": null,
+            "textRules": null,
+            "costCenter": null,
+            "percentageCostCenter": null,
+            "financialAccount": null,
+            "recommendationByRefinery": false,
+            "isBehaviorOptional": true,
+            "creationUser": "RGARCIA",
+            "alterationUser": "RGARCIA",
+            "limitTradeValue": null,
+            "percentageReplacement": null,
+            "automaticUse": false,
+            "idImage": null
+        },
+        "couponCoverages": [],
+        "couponProductGroups": [
+            {
+    						"id": 1,
+    						"couponId": 15,
+    						"action": "UPDATE",
+                "couponProducts": [
+                    {
+    										"id": 2,
+    										"couponId": 15,
+    										"productGroupId": 2,
+    										"action": "UPDATE",
+                        "columnName": "GRUPO",
+                        "relationalOperator": "EQUAL",
+                        "columnType": "STRING",
+                        "columnValue": "ALIMENTO"
+                    }
+                ]
+            }
+        ],
+        "couponCustomers": [],
+        "couponBehaviors": [],
+        "couponConditions": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1655248975408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

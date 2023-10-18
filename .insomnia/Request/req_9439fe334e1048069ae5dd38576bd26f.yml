@@ -1,0 +1,124 @@
+_id: req_9439fe334e1048069ae5dd38576bd26f
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1664996451591
+created: 1660327429730
+url: "{{ _.local }}/coupon/v1/coupon/95346"
+name: cupom-update-tst
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"couponData": {
+    		"id": 95264,
+    		"idImage": null,
+    		"description": "BONUS",
+    		"detailedDescription": "BONUS",
+    		"idCampaign": 106,
+    		"idSection": 21,
+    		"pub": false,
+    		"active": false,
+    		"cuponable": true,
+    		"limitUses": null,
+    		"individualUses": null,
+    		"startDate": "16/08/2022 00:00:00",
+    		"endDate": "20/01/2023 00:00:00",
+    		"durationDays": 15,
+    		"promocode": null,
+    		"dynamicPromocode": true,
+    		"discountType": "BONUS_VALUE",
+    		"bonusValue": 20,
+    		"discountPercentage": null,
+    		"price": null,
+    		"rebatePercentage": null,
+    		"rebateValue": 20,
+    		"creationDate": "12/08/2022 15:03:15",
+    		"alterationDate": null,
+    		"mainItemId": null,
+    		"title": "BONUS",
+    		"bonusPercentage": null,
+    		"textRules": null,
+    		"maxDiscountValue": null,
+    		"currentUses": null,
+    		"currentWallets": null,
+    		"isBehaviorOptional": true,
+    		"costCenter": null,
+    		"percentageCostCenter": null,
+    		"financialAccount": null,
+    		"recommendationByRefinery": true,
+    		"creationUser": "lanschau",
+    		"alterationUser": "lanschau",
+    		"limitTradeValue": 1000,
+    		"percentageReplacement": null,
+    		"currentTradeValue": null,
+    		"automaticUse": true
+    	},
+    	"couponProductGroups": [
+    		
+    	],
+    	"couponCoverages": [
+    		 {
+          "action": "ADD",
+          "columnName": "AREA_SUPERVISAO",
+          "columnType": "STRING",
+          "columnValue": "SUPERVISAO CENTRO POA",
+          "relationalOperator": "EQUAL"
+        }
+    	],
+    	"couponCustomers": [
+    		 {
+          "action": "ADD",
+          "columnName": "ADERIU_PUC",
+          "columnType": "BOOLEAN",
+          "columnValue": "S",
+          "relationalOperator": "EQUAL"
+        }
+    	],
+    	"couponConditions": [
+    		 {
+          "action": "ADD",
+          "filterList": [
+            {
+              "action": "ADD",
+              "columnName": "SUB_CATEGORY",
+              "columnValue": "AEROSOL",
+              "relationalOperator": "EQUAL"
+            }
+          ],
+          "textExhibition": "string"
+        }
+    	],
+    	"couponBehaviors": [
+    		 {
+          "action": "ADD",
+          "daysAnalize": 10,
+          "filterList": [
+            {
+              "action": "ADD",
+              "columnName": "BRAND",
+              "columnValue": "PANVEL",
+              "relationalOperator": "EQUAL"
+            }
+          ],
+          "purchasePrice": 10,
+          "quantityItem": 1,
+          "ticketMedium": 10
+        }
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1655081105515
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

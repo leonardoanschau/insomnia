@@ -1,0 +1,36 @@
+_id: req_fadc9a698d4340e3892434f158c583e8
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1667498522747
+created: 1667219445347
+url: "{{ _.staging }}/omni-dashboard-bff/v1/coupon/export"
+name: coupon/export
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "searchParameters": [
+        {
+          "filter": "STATUS",
+          "relationalOperator": "EQUAL",
+          "value": "true"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651172757153.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

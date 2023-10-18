@@ -1,0 +1,10 @@
+_id: fld_07d3cd0154ea447ea63d6a0daabb2585
+type: RequestGroup
+parentId: wrk_fa4d42cf92b24692bcfa7f6d95da37de
+modified: 1677069586840
+created: 1676575671004
+name: cliente-varejo
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1668910445312.5

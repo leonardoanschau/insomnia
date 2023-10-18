@@ -1,0 +1,31 @@
+_id: req_6d03bda3f1f9481f9d01d4e20e7c235a
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1666385217312
+created: 1666013343655
+url: "{{ _.local }}/coupon/v1/coupon/search/export"
+name: coupon/export
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "searchParameters": [
+        
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4fea2adcde0d458cb9df281bb3620f1e
+authentication: {}
+metaSortKey: -1664662305280
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

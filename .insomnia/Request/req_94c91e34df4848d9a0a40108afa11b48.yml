@@ -1,0 +1,109 @@
+_id: req_94c91e34df4848d9a0a40108afa11b48
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1664996450744
+created: 1656095216759
+url: "{{ _.local }}/coupon/v1/coupon"
+name: cupom-bonus-value
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "couponData":{
+          "idImage":null,
+          "description":"valores bonus",
+          "detailedDescription":"valores bonus",
+          "idCampaign":1,
+          "idSection":1,
+          "pub":false,
+          "active":true,
+          "cuponable":true,
+          "limitUses":null,
+          "individualUses":null,
+          "startDate":"24/06/2022 00:01:00",
+          "endDate":"30/06/2022 23:59:00",
+          "durationDays":null,
+          "promocode":"",
+          "dynamicPromocode":false,
+          "discountType":"BONUS_VALUE",
+          "bonusValue":10,
+          "discountPercentage":null,
+          "price":null,
+          "rebatePercentage":null,
+          "rebateValue":null,
+          "creationDate":"24/06/2022 15:20:51",
+          "alterationDate":"24/06/2022 15:20:52",
+          "mainItemId":null,
+          "title":"valores bonus",
+          "bonusPercentage":null,
+          "maxDiscountValue":null,
+          "currentUses":null,
+          "currentWallets":null,
+          "isBehaviorOptional":true,
+          "costCenter":null,
+          "percentageCostCenter":null,
+          "financialAccount":null,
+          "recommendationByRefinery":false,
+          "creationUser":"RGARCIA",
+          "alterationUser":"RGARCIA",
+          "limitTradeValue":null,
+          "percentageReplacement":null,
+          "currentTradeValue":null,
+          "automaticUse":false
+       },
+       "couponCoverages":[
+          {
+             "columnName":"CANAL",
+             "columnType":"STRING",
+             "relationalOperator":"IN",
+             "columnValue":"LOJA;APP;ALO;SITE"
+          }
+       ],
+       "couponCustomers":[
+          
+       ],
+       "couponProductGroups":[
+          
+       ],
+       "couponConditions":[
+          {
+    				 "textExhibition": ".",
+             "filterList":[
+                {
+                   "columnName":"MINIMUM_VALUE",
+                   "columnValue":"1",
+                   "relationalOperator":"EQUAL"
+                },
+                {
+                   "columnName":"MINIMUM_QUANTITY",
+                   "columnValue":"1",
+                   "relationalOperator":"EQUAL"
+                },
+                {
+                   "columnName":"BRAND",
+                   "columnValue":"PANVEL",
+                   "relationalOperator":"EQUAL"
+                }
+             ]
+          }
+       ],
+       "couponBehaviors":[
+          
+       ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1654801322360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

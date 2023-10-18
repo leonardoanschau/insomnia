@@ -1,0 +1,26 @@
+_id: req_3b55699f87c0488dba8a9fe51fd28148
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1691524323993
+created: 1677858061624
+url: "{{ _.local }}/coupon/v1/coupon/wallet/invalid/02942071044?channel=LOJA"
+name: invalid
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2db7891e3e4c43fc9fcb1a614f21af86
+authentication: {}
+metaSortKey: -1651771403821.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

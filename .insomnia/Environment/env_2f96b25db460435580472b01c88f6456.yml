@@ -1,0 +1,14 @@
+_id: env_2f96b25db460435580472b01c88f6456
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1673517544182
+created: 1663616005025
+name: convenio-service
+data:
+  local: http://localhost:9017
+dataPropertyOrder:
+  "&":
+    - local
+color: null
+isPrivate: false
+metaSortKey: 1663616005025

@@ -1,0 +1,32 @@
+_id: req_96026f9ba9ec407782077c99479804a7
+type: Request
+parentId: fld_0216f8848fde4ecb96265e8fb14081fa
+modified: 1663102235199
+created: 1654174772259
+url: "{{ _.staging }}/v1/ecommerce/orders/status"
+name: "cancel "
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "orders":[
+          120389067906869
+       ],
+       "status":"CANCELADO"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_932c8c93ae9a480b8b147e6fbec7713f
+authentication: {}
+metaSortKey: -1652892965868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_92f2f5a0f05942e1915e73c405312438
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1677264623366
+created: 1671717119277
+url: "{{ _.local }}/coupon/v1/coupon/data/32"
+name: cupom
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655444823616.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_ee55a5e3793e46db86f604025554a401
+type: Request
+parentId: fld_4e20f0264d124c76916629c443bc2910
+modified: 1689021160497
+created: 1687283665974
+url: "{{ _.local }}/custom-message/v1/campaigns/active"
+name: campaign/active
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1687283665974
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_4c7f9a469def416592600dde9eabfbc6
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1690911664574
+created: 1661275898747
+url: "{{ _.staging }}/omni-dashboard-bff/v1/campaign/112"
+name: campaign
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661275898747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

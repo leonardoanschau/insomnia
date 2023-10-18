@@ -1,0 +1,38 @@
+_id: req_cccf828bceb5404188c7e7abd78bc313
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1667219430890
+created: 1651173576728
+url: ""
+name: search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "searchParameters": [
+        {
+          "filter": "ACTIVE_PUC",
+          "relationalOperator": "EQUAL",
+          "value": "N"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e17378bf52a4440d9f3c324947f79f38
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1651173394781.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

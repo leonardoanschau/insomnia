@@ -1,0 +1,23 @@
+_id: req_dc17e468394e4e7f8d08de2bfc4b8582
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1653333330242
+created: 1653332508441
+url: "{{ _.staging }}/v1/coupon/1584/item"
+name: item
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiIzNzAwIiwiZXhwIjoxNjYxMDk4NDQ0fQ.GGwrMyC7anc80oYV4pIdsjFMmr8CnMAJdy-OWhFbo-omK6UlEur-nWc4PtEtbQ_regoNwM4WAvXMtdCQpwRXGA
+metaSortKey: -1651173394775.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

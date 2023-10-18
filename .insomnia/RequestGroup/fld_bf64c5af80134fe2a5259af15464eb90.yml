@@ -1,0 +1,10 @@
+_id: fld_bf64c5af80134fe2a5259af15464eb90
+type: RequestGroup
+parentId: wrk_fa4d42cf92b24692bcfa7f6d95da37de
+modified: 1686945029475
+created: 1677785051834
+name: kafka-avro
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1677342089378.5

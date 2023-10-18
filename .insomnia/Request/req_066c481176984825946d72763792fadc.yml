@@ -1,0 +1,23 @@
+_id: req_066c481176984825946d72763792fadc
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1688004586730
+created: 1687358151210
+url: "{{ _.production }}/omni-dashboard-bff/v1/custom-message/campaigns/active"
+name: custom-message/campaign/active
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663998212965.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

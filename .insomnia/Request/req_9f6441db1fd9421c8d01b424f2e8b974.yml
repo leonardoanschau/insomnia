@@ -1,0 +1,31 @@
+_id: req_9f6441db1fd9421c8d01b424f2e8b974
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1695046998541
+created: 1668049951903
+url: "{{ _.staging }}/coupon/v1/coupon/wallet/recommendation/79565934099"
+name: recommendation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "channel": "SITE",
+    "subsidiary": 101
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: app-token
+    value: mCl6SnTQp6eT
+authentication: {}
+metaSortKey: -1668049951903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

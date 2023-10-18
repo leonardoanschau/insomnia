@@ -1,0 +1,21 @@
+_id: req_d2ad605bc9574eb89d7c101fcc32bf98
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1660568338260
+created: 1660081120816
+url: "{{ _.local }}/coupon/v1/coupon/94954/inactivate"
+name: inactive
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655473009920.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

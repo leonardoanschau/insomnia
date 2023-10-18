@@ -1,0 +1,29 @@
+_id: req_c7c0a822723a42c1b6e240829ed61459
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1664996447388
+created: 1654202509064
+url: "{{ _.staging }}/coupon/v1/coupon/89739/item/search?page=5&size=10"
+name: coupon-item-paged
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "textFilter": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2db7891e3e4c43fc9fcb1a614f21af86
+authentication: {}
+metaSortKey: -1651660624429.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

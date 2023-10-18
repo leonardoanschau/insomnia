@@ -1,0 +1,27 @@
+_id: req_d8a22f4f05724a0caf4632560d4144e0
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1654021166155
+created: 1651581444221
+url: "{{ _.staging }}/grupopanvel/v1/admin/contacts/620bab04bc2164243c9c60d4"
+name: contacts by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9e8c563f2e9546889f92c510f0d5ed9f
+    name: app-token
+    value: "{{ _['app-token'] }}"
+    description: ""
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1651581444221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

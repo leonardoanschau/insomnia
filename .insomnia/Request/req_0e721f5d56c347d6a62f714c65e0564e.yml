@@ -1,0 +1,44 @@
+_id: req_0e721f5d56c347d6a62f714c65e0564e
+type: Request
+parentId: fld_4e20f0264d124c76916629c443bc2910
+modified: 1687314973919
+created: 1685132586032
+url: "{{ _.local }}/custom-message/v1/campaigns"
+name: campaigns
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": true,
+      "alterationDate": null,
+      "alterationUser": null,
+      "behaviorOrderingRule": "QUANTITY",
+      "campaignDescription": "description",
+      "campaignType": "PRICE_DROP",
+      "creationDate": "2023-05-26T20:22:33.720Z",
+      "creationUser": "lanschau",
+      "groupMessage": 10,
+      "groupOrdering": 10,
+      "idImageBody": 1,
+      "idImageHeader": 2,
+      "messageDescription": "string",
+      "messageQuantity": 10,
+      "messageTitle": "string",
+    	"startDate": "2023-05-26T20:22:33.720Z",
+    	"endDate": "2023-05-26T20:22:33.720Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677342092033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

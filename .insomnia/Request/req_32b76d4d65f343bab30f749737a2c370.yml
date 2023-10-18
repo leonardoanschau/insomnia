@@ -1,0 +1,43 @@
+_id: req_32b76d4d65f343bab30f749737a2c370
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1664996448151
+created: 1653657959887
+url: "{{ _.staging }}/coupon/v1/item/search"
+name: item/search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "searchFilters": [
+    		{
+    			"relationalOperatorEnum": "EQUAL",
+    			"searchValue": "PANVEL",
+    			"itemAttribute": "MARCA"
+    		},
+    		{
+    			"relationalOperatorEnum": "EQUAL",
+    			"searchValue": "PANVEL",
+    			"itemAttribute": "MARCA"
+    		}
+    	],
+      "textFilter": null,
+      "pageSize": 4620,
+    	"pageNumber": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2db7891e3e4c43fc9fcb1a614f21af86
+authentication: {}
+metaSortKey: -1651723926939
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

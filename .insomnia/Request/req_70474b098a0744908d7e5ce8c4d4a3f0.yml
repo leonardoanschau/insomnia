@@ -1,0 +1,45 @@
+_id: req_70474b098a0744908d7e5ce8c4d4a3f0
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1696257765444
+created: 1652103741996
+url: "{{ _.staging }}/coupon/v1/coupon/eligible/wallet"
+name: eligible
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "customerCpf":1069192023,
+       "channel":"APP",
+       "subsidiary":701,
+       "shoppingContext":{
+          "items":[
+             {
+                "itemId":1,
+                "itemCode":119536,
+                "quantity":3,
+    						"totalValue":100
+             }
+          ],
+          "delivery":null
+       },
+       "discountTypeFilters":[
+          "BONUS_VALUE"
+       ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2db7891e3e4c43fc9fcb1a614f21af86
+authentication: {}
+metaSortKey: -1652103741996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_a6c0c68a7710457f9e7f8829021d9e10
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1662657076921
+created: 1662657022733
+url: "{{ _.local }}/coupon/v1/campaign/116"
+name: campaign
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "status": true,
+        "endDate": "31/10/2022 23:59:00",
+        "startDate": "06/09/2022 00:01:00",
+        "description": "Teste",
+        "costCenter": 2,
+        "limitTradeValue": 0.25
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d201babe41b5413c81e9255c60069c6f
+authentication: {}
+metaSortKey: -1660388512738.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

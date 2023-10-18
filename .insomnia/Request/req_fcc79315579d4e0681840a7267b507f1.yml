@@ -1,0 +1,76 @@
+_id: req_fcc79315579d4e0681840a7267b507f1
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1696257645024
+created: 1676580414446
+url: "{{ _.staging }}/coupon/v2/coupon"
+name: cupom-v2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "couponData": {
+      	"idCampaign": 1,
+        "idSection": 1,
+        "idImage": 1,
+        "alterationUser": "BONUS 2",
+        "automaticUse": true,
+        "bonusValue": 20,
+        "creationUser": "lanschau",
+        "cuponable": true,
+        "description": "BONUS",
+        "detailedDescription": "BONUS",
+        "discountType": "BONUS_VALUE",
+        "durationDays": 15,
+        "dynamicPromocode": true,
+        "isBehaviorOptional": true,
+        "limitTradeValue": 1000,
+        "percentageReplacement": null,
+        "promocode": "OIEEE",
+        "pub": false,
+        "rebateValue": 20,
+        "recommendationByRefinery": false,
+        "startDate": "24/02/2023 00:01:00",
+        "endDate": "20/04/2023 00:00:00",
+        "title": "Aqui o #NOME#"
+      },
+      "couponProducts": [],
+      "couponCustomerGroups": [
+    		 {
+    			 "couponCustomers": [
+    				  {
+    						"columnName": "SEXO",
+    						"columnType": "STRING",
+    						"columnValue": "M",
+    						"relationalOperator": "EQUAL"
+        			}
+    			 ]
+    		 }
+    	],
+      "couponBehaviors": [],
+      "couponConditions": [],
+      "couponCoverages": [
+        {
+          "columnName": "CANAL",
+          "columnType": "STRING",
+          "columnValue": "LOJA;APP;SITE;ALO",
+          "relationalOperator": "IN"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2b32592fc0d46c3aeff734c70e43d9f
+authentication: {}
+metaSortKey: -1655465807353.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

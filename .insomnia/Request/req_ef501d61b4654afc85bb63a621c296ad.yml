@@ -1,0 +1,21 @@
+_id: req_ef501d61b4654afc85bb63a621c296ad
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1687876987494
+created: 1664557841565
+url: "{{ _.staging }}/coupon/v1/virtual-subsidiary/establishment-type"
+name: estabeleshiment-type
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664557841565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

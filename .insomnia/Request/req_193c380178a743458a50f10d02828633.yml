@@ -1,0 +1,21 @@
+_id: req_193c380178a743458a50f10d02828633
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1663940130646
+created: 1663940071884
+url: "{{ _.local }}/coupon/v1/coupon/section?printOnStore=true&quantity=15"
+name: section-pagination
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1662396962188.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_714e5efacc7b427ab63736425cd30d80
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1690915334610
+created: 1665067995092
+url: "{{ _.local }}/coupon/v1/coupon/wallet/expired/67028444171?channel=LOJA"
+name: expired
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2db7891e3e4c43fc9fcb1a614f21af86
+authentication: {}
+metaSortKey: -1651787229448.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

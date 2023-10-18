@@ -1,0 +1,21 @@
+_id: req_0b4e710a448440d4b0ab3998db434332
+type: Request
+parentId: fld_4e20f0264d124c76916629c443bc2910
+modified: 1688004527149
+created: 1688004524850
+url: "{{ _.production }}/custom-message/v1/campaigns/behavior-rules"
+name: campaign/rules
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1687134743545.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

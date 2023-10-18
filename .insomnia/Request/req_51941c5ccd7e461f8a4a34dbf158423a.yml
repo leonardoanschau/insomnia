@@ -1,0 +1,26 @@
+_id: req_51941c5ccd7e461f8a4a34dbf158423a
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1666025577431
+created: 1666014111425
+url: "{{ _.local }}/coupon/v1/coupon/search/download-dois"
+name: coupon/download
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_4fea2adcde0d458cb9df281bb3620f1e
+authentication: {}
+metaSortKey: -1664610073422.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

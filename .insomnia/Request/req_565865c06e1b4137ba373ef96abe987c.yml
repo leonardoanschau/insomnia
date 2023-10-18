@@ -1,0 +1,24 @@
+_id: req_565865c06e1b4137ba373ef96abe987c
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1658953031472
+created: 1655833115811
+url: "{{ _.local }}/omni-dashboard-bff/v1/coverage/CANAL_ATIVACAO"
+name: column-types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1651172757191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

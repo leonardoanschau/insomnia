@@ -1,0 +1,32 @@
+_id: req_d786d75fb364409c8f6bb1a6770bc5a1
+type: Request
+parentId: fld_4e20f0264d124c76916629c443bc2910
+modified: 1697202032717
+created: 1697201310155
+url: "{{ _.local }}/custom-message/v1/notifications/remember-later"
+name: remember-later
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+        "customerCpf": 3053483025,
+    	  "notificationId": "4468a667-9134-4463-8729-aa98a2ca2e30"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: app-token
+    value: mCl6SnTQp6eT
+authentication: {}
+metaSortKey: -1687283666074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

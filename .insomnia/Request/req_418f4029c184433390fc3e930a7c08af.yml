@@ -1,0 +1,21 @@
+_id: req_418f4029c184433390fc3e930a7c08af
+type: Request
+parentId: fld_bdd6da10c02c48adaca684620c7743f7
+modified: 1689602232901
+created: 1689602212635
+url: "{{ _.production }}/item/v3/itens/dados/ITEM"
+name: dados
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1689602212635
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

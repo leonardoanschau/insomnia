@@ -1,0 +1,21 @@
+_id: req_2c713d3a8b1a4172ba2318ab26e15211
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1651802027630
+created: 1651801795819
+url: "{{ _.local }}/grupopanvel/v1/real-estate-offer/625874c9d4ea2513e4d25685"
+name: real-estate-offer
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651581616351.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

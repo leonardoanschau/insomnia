@@ -1,0 +1,21 @@
+_id: req_0c321d1d2e2b4fd4b988133489d94141
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1687876980236
+created: 1663867742591
+url: "{{ _.staging }}/coupon/v1/coupon/section/25"
+name: section
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1662396962201
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

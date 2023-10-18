@@ -1,0 +1,18 @@
+_id: env_34da46b38eba4fe59bb29dc9a57c82e2
+type: Environment
+parentId: env_d2af8a200a7b45988142962459192d9d
+modified: 1688004577643
+created: 1651173718032
+name: coupon-service
+data:
+  local: http://localhost:8080
+  staging: http://tst.grupodimedservices.com.br
+  production: https://api-int.grupodimedservices.com.br/prod
+dataPropertyOrder:
+  "&":
+    - local
+    - staging
+    - production
+color: null
+isPrivate: false
+metaSortKey: 1651173718032

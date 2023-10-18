@@ -1,0 +1,21 @@
+_id: req_62e8542f06a145a69ee755a7320b6fb2
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1653317723270
+created: 1653317712834
+url: "{{ _.local }}/grupopanvel/v1/location/operate/ufs"
+name: location
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651275407150.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

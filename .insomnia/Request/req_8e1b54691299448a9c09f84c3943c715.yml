@@ -1,0 +1,32 @@
+_id: req_8e1b54691299448a9c09f84c3943c715
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1663868041890
+created: 1663867938274
+url: "{{ _.local }}/coupon/v1/coupon/section"
+name: section
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Seção 3",
+    	"quantity": 15,
+    	"quantityRecommendationRefinery": 10,
+    	"ordering": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7e2fbf71c2f14200b7cbea666aa2588f
+authentication: {}
+metaSortKey: -1662396962176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

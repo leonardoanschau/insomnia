@@ -1,0 +1,23 @@
+_id: req_0a0216e0bdaf43babf8e228f1b1a0f40
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1687357987825
+created: 1687357964562
+url: "{{ _.local }}/omni-dashboard-bff/v1/custom-message/messages/10"
+name: messages/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1664041189205.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

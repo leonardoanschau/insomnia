@@ -1,0 +1,48 @@
+_id: req_898dc3e7a1454f57bc2dad8764c3187e
+type: Request
+parentId: fld_4e20f0264d124c76916629c443bc2910
+modified: 1689172560519
+created: 1689083066782
+url: "{{ _.local }}/custom-message/v1/messages"
+name: messages
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "creationUser": "lanschau",
+      "idCampaign": 1,
+      "messageRules": [
+        {
+          "columnName": "BEHAVIOR_RULE",
+          "columnValue": "ASDSD",
+          "relationalOperator": "EQUAL"
+        },
+    		{
+          "columnName": "MINIMAL_DISCOUNT_RULE",
+          "columnValue": "123",
+          "relationalOperator": "EQUAL"
+        },
+    		{
+          "columnName": "ITEMS_ORDER_RULE",
+          "columnValue": "GREAT_DISCOUNT",
+          "relationalOperator": "EQUAL"
+        }
+      ],
+      "priority": 1,
+      "ruleDescription": "rule description"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677205844960.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

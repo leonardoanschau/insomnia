@@ -1,0 +1,22 @@
+_id: req_dc7a54a5becc43b9b7631559df79d2ca
+type: Request
+parentId: fld_171f0e1142f247b7bd7176e68ec466ed
+modified: 1695131627476
+created: 1689254779134
+url: "{{ _.production
+  }}/recommendation/v1/recommendation/customer/8408132954?channel=SITE"
+name: recommendation/customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678565518241
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

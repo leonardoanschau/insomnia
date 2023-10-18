@@ -1,0 +1,29 @@
+_id: req_d7ce2f0213b74a6599279ac450dfca4a
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1688648328956
+created: 1688648026394
+url: "{{ _.local }}/coupon/v1/coupon/exchange-voucher/wallet/1/cancel/validate"
+name: exchange-voucher/cancel/validate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accessKey": "DASOIJD93AD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7e2fbf71c2f14200b7cbea666aa2588f
+authentication: {}
+metaSortKey: -1662396962154.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

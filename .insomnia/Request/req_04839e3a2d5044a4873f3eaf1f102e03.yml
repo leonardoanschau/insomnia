@@ -1,0 +1,34 @@
+_id: req_04839e3a2d5044a4873f3eaf1f102e03
+type: Request
+parentId: fld_78bc1c5af9db44e9851da97df4e6f422
+modified: 1661974883943
+created: 1661288115547
+url: "{{ _.local }}/coupon/v1/campaign/4"
+name: campaign
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "costCenter": 15,
+      "description": "Campanha com limite de valor 2",
+      "endDate": "20/01/2025 00:00:00",
+      "limitTradeValue": 250.00,
+      "startDate": "19/08/2022 00:00:00",
+      "status": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ee895841016748d691a73016a87a0264
+authentication: {}
+metaSortKey: -1660206315208.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

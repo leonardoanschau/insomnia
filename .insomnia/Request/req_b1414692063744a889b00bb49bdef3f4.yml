@@ -1,0 +1,36 @@
+_id: req_b1414692063744a889b00bb49bdef3f4
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1661288093312
+created: 1661276355460
+url: "{{ _.local }}/omni-dashboard-bff/v1/campaign"
+name: campaign
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "costCenter": 15,
+      "description": "Campanha com limite de valor",
+      "endDate": "20/01/2025 00:00:00",
+      "limitTradeValue": 130500.50,
+      "startDate": "19/08/2022 00:00:00",
+      "status": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae3f3cc428f04e45abafd4f664bbfe90
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1661105502038.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

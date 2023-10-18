@@ -1,0 +1,25 @@
+_id: req_ce8d364baa854d3286b3286bf716b6d4
+type: Request
+parentId: fld_bf64c5af80134fe2a5259af15464eb90
+modified: 1683309899178
+created: 1677790024621
+url: http://kafka-registry-dev.saas.dimed.com.br/config/CUSTOM_MESSAGE_OUT_701-value
+name: alter compatibilty
+description: ""
+method: PUT
+body:
+  mimeType: application/vnd.schemaregistry.v1+json
+  text: '{"compatibility": "BACKWARD"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/vnd.schemaregistry.v1+json
+authentication: {}
+metaSortKey: -1677635894554.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

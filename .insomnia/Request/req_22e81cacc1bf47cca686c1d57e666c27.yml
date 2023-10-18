@@ -1,0 +1,26 @@
+_id: req_22e81cacc1bf47cca686c1d57e666c27
+type: Request
+parentId: fld_727e0ce26a9c447aad26d52525ea94cf
+modified: 1659120550106
+created: 1651173403832
+url: "{{ _.local
+  }}/omni-dashboard-bff/v1/coupon/search/optionshttps://www.redragon.com.br/whe\
+  eljackw{{ _.local }}/omni-dashboard-bff/v1/coupon/search/options"
+name: search-options
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1651173394769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

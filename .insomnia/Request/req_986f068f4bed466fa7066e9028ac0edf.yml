@@ -1,0 +1,21 @@
+_id: req_986f068f4bed466fa7066e9028ac0edf
+type: Request
+parentId: fld_61fbc95f60d74897b8cb83f00fe14004
+modified: 1652207803746
+created: 1652207028738
+url: "{{ _.local }}/grupopanvel/v1/sponsorship/projects/627ab0948aef1822093f38d3"
+name: sponsorship-projects by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651479431864.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

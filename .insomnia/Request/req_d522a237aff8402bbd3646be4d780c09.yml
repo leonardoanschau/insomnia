@@ -1,0 +1,145 @@
+_id: req_d522a237aff8402bbd3646be4d780c09
+type: Request
+parentId: fld_0216f8848fde4ecb96265e8fb14081fa
+modified: 1663610771914
+created: 1653682189740
+url: "{{ _.staging }}/v1/ecommerce/orders"
+name: pedido
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"walletId": 7666,
+        "shoppingCartId": "8327118",
+        "client": {
+            "code": 5855628,
+            "areaCode": 51,
+            "phoneNumber": "994113813",
+            "document": "00415559022",
+            "name": "VINICIUS CORREA ZMUDA",
+            "branch": null,
+            "trackingAreaCode": null,
+            "trackingPhone": null,
+            "email": "yeu_rs@hotmail.com"
+        },
+        "orderTotalValue": 2.97,
+        "orderStatus": "AGUARDANDO_CONFIRMACAO",
+        "delivery": [
+            {
+    						"walletId": 7666,
+                "address": {
+                    "localityCode": 7394,
+                    "number": 865,
+                    "complement": null,
+                    "deliveryReference": null,
+                    "streetCode": 1398797
+                },
+                "coveredByCovenant": true,
+                "deliveryDate": "16/06/2021 21:00",
+                "deliveryMethod": "MOTOBOY",
+                "deliveryType": "PROGRAMADA",
+                "feeCode": 806190,
+                "feeValue": 0,
+                "id": "42a6e1da-d0a5-42bc-a7e9-efa5915bd2c2",
+                "exemptionValue": 7.89,
+                "subsidiary": 389,
+                "lockerId": null,
+                "lockerDoorNumber": null,
+                "lockerReserveNumber": null,
+                "lockerReservePassword": null,
+                "pickupDocument": null,
+                "routeCode": 24,
+                "stockOrigin": null
+            }
+        ],
+        "items": [
+            {
+                "code": 84689,
+                "contemplatedByCovenant": false,
+                "deliveryAmount": 1,
+                "deliveryId": "42a6e1da-d0a5-42bc-a7e9-efa5915bd2c2",
+                "discount": null,
+                "promotion": null,
+                "totalValue": 0.99,
+                "unitaryValue": 0.99,
+                "amount": 1,
+                "number": null,
+                "prescription": null,
+                "exemptionPercentage": null,
+                "pack": null,
+                "pbmAuthorizations": null
+            },
+            {
+                "code": 84689,
+                "contemplatedByCovenant": false,
+                "deliveryAmount": 1,
+                "deliveryId": "42a6e1da-d0a5-42bc-a7e9-efa5915bd2c2",
+                "discount": null,
+                "promotion": null,
+                "totalValue": 0.99,
+                "unitaryValue": 0.99,
+                "amount": 1,
+                "number": null,
+                "prescription": null,
+                "exemptionPercentage": null,
+                "pack": null,
+                "pbmAuthorizations": null
+            },
+            {
+                "code": 84689,
+                "contemplatedByCovenant": false,
+                "deliveryAmount": 1,
+                "deliveryId": "42a6e1da-d0a5-42bc-a7e9-efa5915bd2c2",
+                "discount": null,
+                "promotion": null,
+                "totalValue": 0.99,
+                "unitaryValue": 0.99,
+                "amount": 1,
+                "number": null,
+                "prescription": null,
+                "exemptionPercentage": null,
+                "pack": null,
+                "pbmAuthorizations": null
+            }
+        ],
+        "orderSource": "ECOMMERCE",
+        "paymentMethods": [
+            {
+                "paymentMethodDescription": "PIX_ONLINE",
+                "paymentType": "PRODUCT",
+                "value": 2.97,
+                "covenantSubsidiaryCode": 1002,
+                "covenantCode": 443956
+            }
+        ],
+        "printsCouponDocument": null,
+        "urgentOrder": false,
+        "covenants": [
+            {
+                "code": 416061,
+                "subsidiary": null,
+                "covenantSubsidiaryCode": null,
+                "associateCode": null,
+                "associateRegistration": "415559022",
+                "iinNumber": null,
+                "cardNumber": null,
+                "covenantCardNumber": null
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_827c9c5315444cd69e4886e347df9851
+authentication: {}
+metaSortKey: -1653682189740
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
